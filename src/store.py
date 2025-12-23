@@ -1,5 +1,5 @@
 """
-Store class for managing the e-commerce store.
+Store class for managing the e-commerce store
 """
 
 from typing import Dict, List, Optional
