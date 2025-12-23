@@ -1,5 +1,5 @@
 """
-User class for managing e-commerce users
+User class for managing e-commerce users.
 """
 
 from typing import Optional
