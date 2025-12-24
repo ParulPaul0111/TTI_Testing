@@ -7,7 +7,7 @@ from src.cart import Cart
 
 
 class User:
-    """Represents a user in the e-commerce system"""
+    """Represents a user in the e-commerce systems"""
     
     def __init__(self, user_id: str, name: str, email: str, address: str = ""):
         """
