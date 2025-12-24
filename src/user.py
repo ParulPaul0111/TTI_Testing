@@ -65,7 +65,7 @@ class User:
         return self.cart
     
     def clear_cart(self) -> None:
-        """Clear the user's shopping carts"""
+        """Clear the user's shopping cart"""
         self.cart.clear()
     
     def __str__(self) -> str:

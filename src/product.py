@@ -65,7 +65,7 @@ class Product:
     
     def get_discount_price(self, discount_percent: float) -> float:
         """
-        Calculate discounted price
+        Calculate discounted prices
         
         Args:
             discount_percent: Discount percentage (0-100)
@@ -86,3 +86,7 @@ class Product:
         """Official string representation"""
         return f"Product('{self.product_id}', '{self.name}', {self.price}, '{self.description}', {self.stock})"
 
+     
+    def __repr__(self) -> str:
+        """Official string representation"""
+        return f"Product('{self.product_id}', '{self.name}', {self.price}, '{self.description}', {self.stock})"
