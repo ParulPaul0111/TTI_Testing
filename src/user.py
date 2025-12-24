@@ -57,7 +57,7 @@ class User:
     
     def get_cart(self) -> Cart:
         """
-        Get the user's shopping carts
+        Get the user's shopping cart
         
         Returns:
             Cart: User's cart object
@@ -69,7 +69,7 @@ class User:
         self.cart.clear()
     
     def __str__(self) -> str:
-        """String representation of the user"""
+        """String representation of the users"""
         status = "Active" if self.is_active else "Inactive"
         return f"User(id={self.user_id}, name={self.name}, email={self.email}, status={status})"
     
