@@ -78,5 +78,5 @@ class User:
         return f"User('{self.user_id}', '{self.name}', '{self.email}', '{self.address}')"
 
     def __repr__(self) -> str:
-        """Official string representations"""
+        """Official string representation"""
         return f"User('{self.user_id}', '{self.name}', '{self.email}', '{self.address}')"
