@@ -69,7 +69,7 @@ class User:
         self.cart.clear()
     
     def __str__(self) -> str:
-        """String representation of the users"""
+        """String representation of the user"""
         status = "Active" if self.is_active else "Inactive"
         return f"User(id={self.user_id}, name={self.name}, email={self.email}, status={status})"
     
@@ -77,3 +77,6 @@ class User:
         """Official string representation"""
         return f"User('{self.user_id}', '{self.name}', '{self.email}', '{self.address}')"
 
+    def __repr__(self) -> str:
+        """Official string representation"""
+        return f"User('{self.user_id}', '{self.name}', '{self.email}', '{self.address}')"
