@@ -7,7 +7,7 @@ from src.cart import Cart
 
 
 class User:
-    """Represents a user in the e-commerce systems"""
+    """Represents a user in the e-commerce system"""
     
     def __init__(self, user_id: str, name: str, email: str, address: str = ""):
         """
@@ -29,7 +29,7 @@ class User:
     def update_profile(self, name: Optional[str] = None, email: Optional[str] = None, 
                       address: Optional[str] = None) -> bool:
         """
-        Update user profile information
+        Update user profile informations
         
         Args:
             name: New name (optional)
