@@ -52,7 +52,7 @@ class User:
         self.is_active = True
     
     def deactivate_account(self) -> None:
-        """Deactivate the user account"""
+        """Deactivate the user accounts"""
         self.is_active = False
     
     def get_cart(self) -> Cart:
